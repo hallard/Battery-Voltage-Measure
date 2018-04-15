@@ -28,9 +28,10 @@ In this case to avoid battery drain (that will occurs every time), increase resi
 
 ## Boards 
 
-<img src="https://raw.githubusercontent.com/hallard/Battery-Voltage-Measure/master/pictures/Battery-Voltage-Measure-top.png" alt="Top">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/hallard/Battery-Voltage-Measure/master/pictures/Battery-Voltage-Measure-bot.png" alt="Bottom"> 
-You can order the PCB of this board at [PCBs.io][3].
-PCBs.io give me some reward when you order my designed boards from their site. This is pretty cool because I can use these rewards to create and design new boards and order boards for a discounted price, so if you don't care about PCB manufacturer please use PCBs.io.
+<img src="https://raw.githubusercontent.com/hallard/Battery-Voltage-Measure/master/pictures/Battery-Voltage-Measure-top.png" alt="Top">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/hallard/Battery-Voltage-Measure/master/pictures/Battery-Voltage-Measure-bot.png" alt="Bottom">
+
+
+You can order the PCB of this board at [PCBs.io][3]. PCBs.io give me some reward when you order my designed boards from their site. This is pretty good, because I can use these rewards to create and design new boards and order them for free, so if you don't care about PCB manufacturer please use [PCBs.io][3].
 
 ## License
 
@@ -38,7 +39,7 @@ You can do whatever you like with this design.
 
 ## Misc
 
-See news and other projects on my [blog][1] 
+See news and other projects on my [blog][2] 
  
 [2]: https://hallard.me
 [3]: https://PCBs.io/share/zjqg5 
