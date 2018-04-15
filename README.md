@@ -5,7 +5,7 @@ For this I created this little basic board. It's just a basic resistor divider w
 
 ## Detailed Description
 
-You only need 4 wires:
+You only need 3 or 4 wires depending on what you need to achieve
 
 - VBat (connected to + of the battery)
 - GND  (connected to - of the battery)
@@ -16,7 +16,9 @@ To enable the divider to work, you need to set the EN pin to 0. Leaving this pin
 
 Take care of the max voltage value of your analog input pin, some have limited value (IE ESP8266)
 
-Voltage on analog pin (when enabled) is VBat * ( R2 / (R1 + R2) ), so with R1=10K and R2=10K voltage is VBat * 0.5. So 4.2V VBat means 2.1V on analog pin.
+Voltage on analog pin (when enabled) is VBat * ( R2 / (R1 + R2) ), so with R1=10K and R2=10K voltage is VBat * 0.5. So 4.2V VBat means 2.1V on analog pin. In this case, with 3.3V devices, it can go up to 6.6V
+If you need to divide more increase top resistor value example R1=20K, R2=10K you can go up to 9.9V.
+Check Voltage Divider online calculator like this [one][10] or this [one][11] if needed
 
 If you don't want to use enable pin, put some solder paste on JP1 to short the pasd, leave Q1 and R3 unpopulated and you have a basic divider. 
 In this case to avoid battery drain (that will occurs every time), increase resistors values (470K + 470K for example)
@@ -44,3 +46,5 @@ See news and other projects on my [blog][2]
  
 [2]: https://hallard.me
 [3]: https://PCBs.io/share/zjqg5 
+[10]: http://www.ohmslawcalculator.com/voltage-divider-calculator
+[11]: http://www.ti.com/download/kbase/volt/volt_div3.htm
