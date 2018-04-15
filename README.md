@@ -25,6 +25,7 @@ In this case to avoid battery drain (that will occurs every time), increase resi
 
 ![schematic](https://raw.githubusercontent.com/hallard/Battery-Voltage-Measure/master/pictures/Battery-Voltage-Measure-zoom-sch.png)  
 
+Q1 can be any SOT23 P-Mosfet so BSS84, BS250, ... are fine. Resistors are 0805 package.
 
 ## Boards 
 
