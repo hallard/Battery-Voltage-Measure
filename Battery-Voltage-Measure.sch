@@ -2130,6 +2130,8 @@ battery drain, increase resistors values
 470K + 470K for example</text>
 <text x="78.74" y="113.03" size="1.778" layer="95" rot="R90">1%</text>
 <text x="78.74" y="101.6" size="1.778" layer="95" rot="R90">1%</text>
+<text x="92.075" y="127.635" size="1.778" layer="95" rot="R90">1%</text>
+<text x="92.075" y="127.635" size="1.778" layer="95" rot="R90">1%</text>
 </plain>
 <instances>
 <instance part="U$11" gate="G$1" x="63.5" y="140.335"/>
